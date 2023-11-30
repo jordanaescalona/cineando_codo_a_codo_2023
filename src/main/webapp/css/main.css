@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imgMenu{
+	height: 40px;	
+}
+.anchoNavbar{
+	width: 100%;
+}
+.anchoSelector{
+	width: 232px;
+}
+.selectCine{
+	width: 220.667px; 
+	user-select: none;
+}
+.tablaResponsive{
+	width: 100%;
+}
+.enlace{
+	text-decoration: none;
+}
+.custom-peliculas>div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+    /* Navbar */
+
+    .nav-logo:hover {
+        transform: scale(1.2);
+        transition: transform 0.4s ease; 
+        cursor: pointer;
+    }
+    
+
+nav {
+    position: fixed;
+}
+.cmbCiudades,
+#uniform-cmbCiudades span {
+    display: none;
+}
+
+
+.collapse ul {
+    justify-content: space-between;
+}
+
+.collapse ul li a {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: #000;
+}
+
+.custom-logo {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+.btn-primary {
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+
+/* ul.navbar-nav a {
+    color: white !important;
+} */
+
+
+svg {
+    fill: rgb(166, 162, 162);
+}
+
+.custom-social > svg {
+    margin-left: 15px;
+    transition: fill 0.6s ease-out;
+
+}
+
+.custom-social > svg:hover {
+    fill: #0d6efd;
+}
+
+
+/* Peliculas */
+
+
+.card {
+    border: none !important;
+}
+
+.img-peli{
+	width: 100px;
+}
+
+/* Promociones */
+
+.custom-promociones {
+    background: #e4e1e1;
+}
+
+.minus, .plus {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid #000;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .minus:hover, .plus:hover {
+    background-color: #ccc;
+  }
+  
+  .summary-items {
+    list-style-type:none;
+  }
+
+
+.custom-footer {
+    background: rgb(10,4,111);
+    background: linear-gradient(90deg, rgba(10,4,111,1) 0%, rgba(9,9,121,0.6084558823529411) 61%, rgba(18,157,185,0.3227415966386554) 100%);
+}
